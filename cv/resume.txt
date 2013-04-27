@@ -1,0 +1,68 @@
+﻿Name:  Ge, Li
+9450 Gilman Dr., #80331
+La Jolla, CA, 92092, US 
+Mobile: 858-888-2583
+E-mail: geli19880206@.gmail.com
+EDUCATION
+Sep. 2006-2010   Department of Hydraulic and Hydropower Engineering (DHHE), School of Civil Engineering (SCE), Tsinghua University ( TU )
+GPA:
+major: 89.4/100, rank: 8th/90; 	overall: 88.8/100, rank: 9th/90
+
+ACADEMIC ACTIVITIES
+Sep. 2008- Feb. 2009           Student Research Training Program
+Topic: Traffic Flow Data Mining and Analysis Technique on Urban Expressway 
+Studied the traffic system PeMS(Performance Measurement System) of California(U.S.).
+Independently finished a report which illustrated framework and mechanism of the system.
+Put forward suggestions to the construction of traffic system of Shangdong province.
+Mar. 2009-Present     Research in concrete laboratory led by Professor An XueHui
+Studied the finite element analysis(FEA) methods on reinforce concrete.
+Did 1/2 work of writing of DuCOM-COM3D Version 2009(a FEA software) User Manual.
+Independently established 3 FEA models and accomplished analyzing.
+Aug. 2009            3rd prize in 7th National Zhou Peiyuan Mechanics Competition
+Dec. 2007              2nd prize in 24th National Undergraduatet Physical Contest
+Nov. 2008                    Structure Design Competition in Tsinghua
+Designed and made a wooden tower which was required to resist bending moments, distortion and impact load. 
+Sep. 2008            China Undergraduate Mathematical Contest in Modeling
+Found an approach on digital camera calibration and implemented the algorithm with Matlab.
+Jun. 2008                 TU Student Mathematical Contest in Modeling
+Established a model to optimize the distribution of monitors in a museum, so that the max area of the museum can be observed.
+Summer Training Projects:
+Sep. 2009   	               Reinforced Concrete Design
+Independently accomplished the structural design for a three-storey shopping mall.
+Sep. 2008   		              Geological Practice
+Independently accomplished geological structure mapping.
+Sep. 2008   		                Survey Practice
+Accomplished survey and mapping of a 0.2 km2 residential area and a 0.4 km2 mountainous area (with 3 other students).
+
+WORKING EXPERIENCES
+Jun. 2009-Aug. 2009  Xiangjiaba Hydropower Station Construction Project Internship
+Responsibility: Survey, including the location control of draft tube installing, section measurement and data processing(using Excel and Autocad).
+Jul. 2007-Aug. 2007   Social Practice Program-Small Hydro Power (SHP) Investigation Group
+Vice captain, awarded Golden Prize of TU Social Practice Program.(only 8 groups of more than 400 groups in TU got the prize)
+Jun. 2007-Jun. 2008   Secretary of Sports Section of Students Union of DHHE
+Responsible for organizing DHHE students to participate in sports games held in TU.
+Chief organizer of track and field games, basketball games and table tennis games of DHHE.
+Oct. 2006-Jun. 2007   Member of Sports Section of Students Union of DHHE
+Responsible for managing and training DHHE sports teams.
+Captain of DHHE basketball team.
+Oct. 2007-Present   Coach of School of Civil Engineering Badminton Team
+
+AWARDS&SCHOLARSHIPS
+Mar. 2007   Scholarship of Freshman of DHHE
+Sep. 2007   Scholarship of Comprehensive Excellence of DHHE
+Sep. 2008   Scholarship of Yalong River Hydropower Development
+Sep. 2008   TU Scholarship of Sports
+Sep. 2009   Scholarship of Huigu
+Sep. 2009   TU Scholarship of Sports
+
+SPECIALITY 
+Sports Star of TU(Granted to 10 most outstanding athletes only).
+Pentathlon (100 meter, long jump, high jump, shot put, 1500 meter) record holder of TU.
+400 meter record holder of TU.
+Player of School Basketball Team, 2nd place in Chengxing Cup Beijing College Basketball Competition in Nov 2008, 8th place in Beijing College Basketball Competition in Apr 2008.
+Member of School Badminton Team, participated in 11th National College Student Badminton Championship in the city of Guilin in Oct 2007.
+
+OTHER SKILLS 
+English exams: TOEFL iBT score: 95; GRE score: 800+490+3.5; 
+Computer skills : C, matlab, fortran, Java and VBA(Excel); Autocad, Matlab.
+
