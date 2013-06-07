@@ -1,0 +1,42 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title=title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Li Ge\'s website')
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/bootstrap-responsive.css', rel='stylesheet')
+    block css
+
+  body(data-spy='scroll', data-target='.bs-docs-sidebar')
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+          .nav-collapse.collapse
+            .span2
+            ul.nav
+              li(class=navClass.home)
+                a(href='home.html') Home
+              li(class=navClass.background)
+                a(href='background.html') Background
+              li(class=navClass.research)
+                a(href='research.html') Research
+              li(class=navClass.publications)
+                a(href='publications.html') Publications
+              li(class=navClass.misc)
+                a(href='misc.html') Misc
+
+    block content
+
+    hr
+    .container
+      footer.footer
+        p © lige.me 2013
+
+    block scripts

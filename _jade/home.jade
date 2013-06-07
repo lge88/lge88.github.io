@@ -1,0 +1,147 @@
+extends layout
+
+block css
+  link(href='css/lige.me.css', rel='stylesheet')
+
+block content
+  .container
+    .hero-unit
+    .row
+      .span2
+      .span4
+        h1 Li Ge (葛力)
+        p
+          b Email:
+          a(href='mailto:lge@ucsd.edu', target='_blank') lge@ucsd.edu
+          br
+        p
+          b Office:
+          br
+          a(href='http://www.ucsd.edu/') UCSD&nbsp
+          a(href='http://maps.google.com/maps?q=Richard+C.+Atkinson+Hall+University+of+California+San+Diego,+La+Jolla,+CA+92093&hl=en&sll=37.6,-95.665&sspn=45.469795,113.466797&t=h&hnear=Richard+C.+Atkinson+Hall,+La+Jolla,+California+92093&z=16', target='_blank')
+            Calit2 Atkinson Hall
+          |  second floor, open area near the
+          a(href='http://vis.ucsd.edu/~cglx', target='_blank')  HIPerWall
+          br
+        p
+          b Address:
+          br
+          | 9500 Gilman Drive, Mail Code 0085
+          br
+          | La Jolla, CA 92093-0085
+          br
+          | United States
+
+      .span4
+        a.thumbnail(href='https://lh3.googleusercontent.com/-kVL-TB_Dls8/UO82Sa1jnOI/AAAAAAAABAo/Z5ftTlsnkeo/s940/IMGP1803.JPG')
+          img#profile(src='https://lh3.googleusercontent.com/-kVL-TB_Dls8/UO82Sa1jnOI/AAAAAAAABAo/Z5ftTlsnkeo/s940/IMGP1803.JPG')
+      .span2
+
+    .spacer
+
+    .row
+      .span2
+      .span8
+         p
+           | I am a PhD student in
+           a(href='http://structures.ucsd.edu/', target='_blank')
+             | Department of Structural Engineering
+             | at
+           a(href='http://www.ucsd.edu/', target='_blank')
+             | University of Califonia, San Diego
+             | .
+             | My advisor is Professor
+           a(href='http://vis.ucsd.edu/mediawiki/index.php/Research_Profile:_Falko_Kuester', target='_blank')
+             | Falko Kuester
+             | .
+         p
+           | My research interests are simulation-based engineering, computational mechanics,
+           | computer graphics and human-computer interaction.
+         p
+           | I am a big fan of open source softwares.
+           | I have enjoyed a considerable boost to my research from many open source projects,
+           | and I also try to make the libraries and toolkits that I created available and reusable to others.
+      .span2
+    .row
+      .span2
+      .span8
+        h2 Projects
+        ul
+          li
+            a(href='http://vision2.ucsd.edu/sketchit', target='_blank') SketchIT
+            | &nbspA sketch-based 3D modeling and simulation enviroment for structural analysis. It is a cloud-centric
+            | application and powered by&nbsp
+            a(href='http://en.wikipedia.org/wiki/HTML5', target='_blank') HTML5
+            | (
+            a(href='http://en.wikipedia.org/wiki/Canvas_element', target='_blank') Canvas
+            | ,
+            a(href='http://en.wikipedia.org/wiki/WebGL', target='_blank') WebGL
+            | ,
+            a(href='http://en.wikipedia.org/wiki/WebSocket', target='_blank') Websockets
+            | ). Under active development.
+          li
+            a(href='http://vision2.ucsd.edu/SketchIT-stable/index.html', target='_blank') SketchIT-2D
+            | 2D version of the SketchIT. Paper is submitted to
+            a(href='http://iwcce2013.usc.edu', target='_blank') IWCCE2013
+            | . Video demos:
+            a(href='http://www.youtube.com/watch?v=TGrxGoNXWQc', target='_blank') staic analysis
+            | ,
+            a(href='http://www.youtube.com/watch?v=3oChhScuEKE', target='_blank') dynamic analysis
+            | .
+          li
+            a(href='https://github.com/lge88/direct-fea', target='_blank') direct-fea
+            | An integrated
+            a(href='http://en.wikipedia.org/wiki/Finite_element_method', target='_blank') FEA
+            | (
+            b F
+            | inite
+            b E
+            | lement
+            b A
+            | nalysis) engine written in
+            a(href='http://nodejs.org/', target='_blank') Node.js
+            | .
+          li
+            a(href='https://github.com/lge88/node-opensees', target='_blank') node-opensees
+            | Node.js binding for
+            a(href='http://opensees.berkeley.edu', target='_blank') OpenSees
+            | (
+            b Open
+            b S
+            | ystem for
+            b E
+            | arthquake
+            b E
+            | ngineering
+            b S
+            | imulation).
+          li
+            a(href='https://github.com/lge88/node-gmsh', target='_blank') node-gmsh
+            | Node.js binding for
+            a(href='http://geuz.org/gmsh/', target='_blank') Gmsh
+            | , an open source three-dimensional
+            | finite element mesh generator.
+      .span2
+
+    .row
+      .span2
+      .span8
+        h2 Links
+        ul
+          li
+            a(href='https://github.com/geli1988', target='_blank') github
+          li
+            a(href='https://npmjs.org/~lge', target='_blank') npm
+          li
+            a(href='http://glvision.blogspot.com/', target='_blank') blog
+          li
+            | Gmail:&nbsp
+            a(href='mailto:geli19880206@gmail.com', target='_blank') geli19880206@gmail.com
+          li
+            a(href='https://twitter.com/lge88/', target='_blank') twitter
+          li
+            a(href='http://simpleacademic.com', target='_blank') Simple Academic
+          li
+            a(href='https://www.youtube.com/watch?v=RrI25ySmOVU', target='_blank') Dunk at RIMAC
+
+      .span2
