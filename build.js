@@ -4,7 +4,7 @@ var path = require('path');
 var jade = require('jade');
 
 // var pages = [ 'home', 'background', 'research', 'publications', 'misc' ];
-var pages = [ 'home', 'background' ];
+var pages = [ 'index', 'background' ];
 
 var src, dest, locals;
 
