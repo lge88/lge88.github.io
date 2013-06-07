@@ -1,0 +1,16 @@
+{
+  "name": "lige.me",
+  "version": "0.0.0",
+  "description": "My website",
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lge88/lige.me.git"
+  },
+  "author": "Li Ge",
+  "license": "BSD",
+  "dependencies": {
+    "shelljs": "~0.1.4",
+    "jade": "~0.31.1"
+  }
+}
