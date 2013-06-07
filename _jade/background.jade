@@ -5,14 +5,10 @@ block css
 
 block content
   .container
-    .hero-unit
+    .spacer20
     .row
       .span2
       .span8
-        p
-          | Here is a pdf version of my
-          a(href='./cv/resume.pdf') CV
-          | .
         h3 Education
         ul
           li
@@ -30,7 +26,7 @@ block content
             | , Beijing, China
             br
             | B.S. in Hydraulic Engineering, 2010.
-        .spacer
+
         h3 Awards
         ul
           li Graduate Student Researcher, University of California, San Diego, 2011 -- 2013
@@ -42,3 +38,8 @@ block content
           li 2nd prize in 24th National Undergraduate Physical Contest of China, 2007
           li
             | Sports Star, Tsinghua University (Granted to 10 most outstanding athletes only), 2009
+        p
+          | Here is a pdf version of my&nbsp
+          a(href='resume/resume.pdf') resume
+          | .
+      .span2

@@ -2,15 +2,15 @@
 html(lang='en')
   head
     meta(charset='utf-8')
-    title=title
+    title Li
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='description', content='Li Ge\'s website')
     link(href='css/bootstrap.min.css', rel='stylesheet')
-    link(href='css/bootstrap-responsive.css', rel='stylesheet')
+    link(href='css/bootstrap-responsive.min.css', rel='stylesheet')
     block css
 
   body(data-spy='scroll', data-target='.bs-docs-sidebar')
-    .navbar.navbar-fixed-top
+    .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
         .container
           button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
@@ -27,8 +27,8 @@ html(lang='en')
                 a(href='background.html') Background
               li(class=navClass.research)
                 a(href='research.html') Research
-              li(class=navClass.publications)
-                a(href='publications.html') Publications
+              // li(class=navClass.publications)
+              //   a(href='publications.html') Publications
               li(class=navClass.misc)
                 a(href='misc.html') Misc
 
@@ -37,6 +37,14 @@ html(lang='en')
     hr
     .container
       footer.footer
-        p © lige.me 2013
+        p
+          | Host on&nbsp
+          a(href="https://github.com/lge88/lige.me") GitHub
+          | &nbsp-&nbspTemplate by&nbsp
+          a(href="http://jade-lang.com") Jade
+          | &nbsp-&nbspTheme by&nbsp
+          a(href="http://twitter.github.io/bootstrap") Bootstrap
 
+    script(src="js/jquery-1.10.1.min.js")
+    script(src="js/bootstrap.min.js")
     block scripts

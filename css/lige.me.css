@@ -1,15 +1,12 @@
-body {
-    background: #eeeeee;
-}
-.spacer {
-    margin-top: 20px;
+
+.spacer5 {
+    padding:5px;
 }
 
-.hero-unit {
-    padding: 30px;
+.spacer10 {
+    padding:10px;
 }
 
-.navbar .nav{
-    float: none;
-    text-align: center;
+.spacer20 {
+    padding:20px;
 }

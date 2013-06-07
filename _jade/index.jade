@@ -5,26 +5,37 @@ block css
 
 block content
   .container
-    .hero-unit
+    .spacer20
+    .spacer5
     .row
       .span2
-      .span4
+      .span5
         h1 Li Ge (葛力)
         p
-          b Email:
+          | PhD student (2010 - now) at&nbsp
+          a(href='http://www.ucsd.edu/') University of Califonia, San Diego
+        address
+          strong Email:
+          br
           a(href='mailto:lge@ucsd.edu', target='_blank') lge@ucsd.edu
+
+        address
+          strong Office:
           br
-        p
-          b Office:
+          a(href='https://maps.google.com/?q=32.8828,-117.234912', target='_blank')
+            | Calit2 Atkinson Hall
+          | ,&nbspsecond floor, open area near the&nbsp
+          a(href='http://vis.ucsd.edu/~cglx', target='_blank') HIPerWall
+          | .
+
+        address
+          strong Mail:
           br
-          a(href='http://www.ucsd.edu/') UCSD&nbsp
-          a(href='http://maps.google.com/maps?q=Richard+C.+Atkinson+Hall+University+of+California+San+Diego,+La+Jolla,+CA+92093&hl=en&sll=37.6,-95.665&sspn=45.469795,113.466797&t=h&hnear=Richard+C.+Atkinson+Hall,+La+Jolla,+California+92093&z=16', target='_blank')
-            Calit2 Atkinson Hall
-          |  second floor, open area near the
-          a(href='http://vis.ucsd.edu/~cglx', target='_blank')  HIPerWall
+          | Department of Structural Engineering
           br
-        p
-          b Address:
+          | Irwin & Joan Jacobs School of Engineering
+          br
+          | University of California, San Diego
           br
           | 9500 Gilman Drive, Mail Code 0085
           br
@@ -32,95 +43,94 @@ block content
           br
           | United States
 
-      .span4
-        a.thumbnail(href='https://lh3.googleusercontent.com/-kVL-TB_Dls8/UO82Sa1jnOI/AAAAAAAABAo/Z5ftTlsnkeo/s940/IMGP1803.JPG')
-          img#profile(src='https://lh3.googleusercontent.com/-kVL-TB_Dls8/UO82Sa1jnOI/AAAAAAAABAo/Z5ftTlsnkeo/s940/IMGP1803.JPG')
+      .span3
+        a.thumbnail(href='img/profile.jpg')
+          img#profile(src='img/profile.jpg')
       .span2
 
-    .spacer
+    .spacer5
 
     .row
       .span2
       .span8
          p
-           | I am a PhD student in
+           | I am a PhD student in&nbsp
            a(href='http://structures.ucsd.edu/', target='_blank')
              | Department of Structural Engineering
-             | at
+           | &nbspat&nbsp
            a(href='http://www.ucsd.edu/', target='_blank')
              | University of Califonia, San Diego
-             | .
-             | My advisor is Professor
+           | . My advisor is Professor&nbsp
            a(href='http://vis.ucsd.edu/mediawiki/index.php/Research_Profile:_Falko_Kuester', target='_blank')
              | Falko Kuester
-             | .
+           | .
          p
            | My research interests are simulation-based engineering, computational mechanics,
-           | computer graphics and human-computer interaction.
+           | computer graphics, cloud computering and human-computer interaction.
          p
            | I am a big fan of open source softwares.
            | I have enjoyed a considerable boost to my research from many open source projects,
            | and I also try to make the libraries and toolkits that I created available and reusable to others.
       .span2
+
     .row
       .span2
       .span8
         h2 Projects
         ul
           li
-            a(href='http://vision2.ucsd.edu/sketchit', target='_blank') SketchIT
-            | &nbspA sketch-based 3D modeling and simulation enviroment for structural analysis. It is a cloud-centric
-            | application and powered by&nbsp
-            a(href='http://en.wikipedia.org/wiki/HTML5', target='_blank') HTML5
-            | (
-            a(href='http://en.wikipedia.org/wiki/Canvas_element', target='_blank') Canvas
-            | ,
+            a(href='http://vision2.ucsd.edu/sketchit', target='_blank') ARStructure
+            | &nbspStructural modeling and simulation system in augumented reality environment.
             a(href='http://en.wikipedia.org/wiki/WebGL', target='_blank') WebGL
-            | ,
-            a(href='http://en.wikipedia.org/wiki/WebSocket', target='_blank') Websockets
-            | ). Under active development.
+            | ,&nbsp
           li
-            a(href='http://vision2.ucsd.edu/SketchIT-stable/index.html', target='_blank') SketchIT-2D
-            | 2D version of the SketchIT. Paper is submitted to
-            a(href='http://iwcce2013.usc.edu', target='_blank') IWCCE2013
-            | . Video demos:
+            a(href='http://vision2.ucsd.edu', target='_blank') SketchIT
+            | &nbspA Sketch-based modeling and simulation enviroment for structural analysis. SketchIT is a cloud-centric
+            | application that runs in a web browser. Video demos can be found here:&nbsp
             a(href='http://www.youtube.com/watch?v=TGrxGoNXWQc', target='_blank') staic analysis
-            | ,
+            | ,&nbsp
             a(href='http://www.youtube.com/watch?v=3oChhScuEKE', target='_blank') dynamic analysis
             | .
           li
-            a(href='https://github.com/lge88/direct-fea', target='_blank') direct-fea
-            | An integrated
-            a(href='http://en.wikipedia.org/wiki/Finite_element_method', target='_blank') FEA
-            | (
-            b F
-            | inite
-            b E
-            | lement
-            b A
-            | nalysis) engine written in
+            a(href='https://github.com/lge88/direct-fea', target='_blank') IFEA
+            | &nbsp
+            b I
+            | ntegrated&nbsp
+            a(href='http://en.wikipedia.org/wiki/Finite_element_method', target='_blank')
+              b F
+              | inite&nbsp
+              b E
+              | lement&nbsp
+              b A
+              | nalysis&nbsp
+            | engine written in&nbsp
             a(href='http://nodejs.org/', target='_blank') Node.js
-            | .
+            | . It is powered by&nbsp
+            a(href='http://en.wikipedia.org/wiki/HTML5', target='_blank') HTML5
+            | &nbsp(
+            a(href='http://en.wikipedia.org/wiki/Canvas_element', target='_blank') Canvas
+            | ,&nbsp
+            a(href='http://en.wikipedia.org/wiki/WebSocket', target='_blank') Websockets
+            | ).
           li
             a(href='https://github.com/lge88/node-opensees', target='_blank') node-opensees
-            | Node.js binding for
+            | &nbspNode.js binding for&nbsp
             a(href='http://opensees.berkeley.edu', target='_blank') OpenSees
-            | (
+            | &nbsp(
             b Open
-            b S
+            b &nbspS
             | ystem for
-            b E
+            b &nbspE
             | arthquake
-            b E
+            b &nbspE
             | ngineering
-            b S
+            b &nbspS
             | imulation).
           li
             a(href='https://github.com/lge88/node-gmsh', target='_blank') node-gmsh
-            | Node.js binding for
+            | &nbspNode.js binding for&nbsp
             a(href='http://geuz.org/gmsh/', target='_blank') Gmsh
-            | , an open source three-dimensional
-            | finite element mesh generator.
+            | , an open source three-dimensional finite element mesh generator.
       .span2
 
     .row
@@ -129,7 +139,7 @@ block content
         h2 Links
         ul
           li
-            a(href='https://github.com/geli1988', target='_blank') github
+            a(href='https://github.com/lge88', target='_blank') github
           li
             a(href='https://npmjs.org/~lge', target='_blank') npm
           li
@@ -139,8 +149,10 @@ block content
             a(href='mailto:geli19880206@gmail.com', target='_blank') geli19880206@gmail.com
           li
             a(href='https://twitter.com/lge88/', target='_blank') twitter
-          li
-            a(href='http://simpleacademic.com', target='_blank') Simple Academic
+            | ,&nbsp
+            a(href='https://twitter.com/lge88/', target='_blank') renren
+            | ,&nbsp
+            a(href='https://twitter.com/lge88/', target='_blank') facebook
           li
             a(href='https://www.youtube.com/watch?v=RrI25ySmOVU', target='_blank') Dunk at RIMAC
 
