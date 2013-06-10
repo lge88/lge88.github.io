@@ -46,6 +46,7 @@ block content
       .span3
         a.thumbnail(href='img/profile.jpg')
           img#profile(src='img/profile.jpg')
+
       .span2
 
     .spacer5
@@ -79,63 +80,41 @@ block content
         h2 Projects
         ul
           li
-            a(href='http://vision2.ucsd.edu/sketchit', target='_blank') ARStructure
-            | &nbsp3D structure modeling and simulation system in augumented reality environment. This mobile application
-            | &nbsp allows user and simulation system in augumented reality environment. An mobile application
-            a(href='http://en.wikipedia.org/wiki/WebGL', target='_blank') WebGL
-            | ,&nbsp
+            a(href='http://vision2.ucsd.edu:8005/ar-structure', target='_blank') ARStructure
+            |  3D structure modeling and simulation system in augumented reality environment. ARStructure is a mobile
+            | application that allows user to build, simulate and visualize structure model on top of the real camera scene.
+            | The constructed model, as well as the simulation results, are augumented and overlaped with the real object,
+            | presenting an intuitive and interesting aspect to understand the structure behaviour.
           li
             a(href='http://vision2.ucsd.edu', target='_blank') SketchIT
-            | &nbspA Sketch-based modeling and simulation enviroment for structural analysis. SketchIT is a cloud-centric
-            | application that can be ran in a web browser without any extra installation. It allows user easily and quickly
-            | construct a conceptual structure model by sketching. The constructed model can be simulated and visualized.
-            | Video demos can be found here:&nbsp
-            a(href='http://www.youtube.com/watch?v=TGrxGoNXWQc', target='_blank') staic analysis
-            | ,&nbsp
-            a(href='http://www.youtube.com/watch?v=3oChhScuEKE', target='_blank') dynamic analysis
-            | .
+            |  A Sketch-based modeling and simulation enviroment for structural analysis. SketchIT allows user easily and quickly
+            | construct a conceptual structure model by sketching. The constructed model can be simulated and visualized on the fly.
+            | The simulation runs on the remote server using FEM (<b>F</b>inite <b>E</b>lement <b>M</b>ethod).
+            | Video demos can be found here:
+            | <a href='http://www.youtube.com/watch?v=TGrxGoNXWQc', target='_blank'>staic analysis</a>
+            | , <a href='http://www.youtube.com/watch?v=3oChhScuEKE', target='_blank'>dynamic analysis</a>.
           li
-            a(href='https://github.com/lge88/direct-fea', target='_blank') IFEA
-            | &nbsp
-            b I
-            | ntegrated&nbsp
-            a(href='http://en.wikipedia.org/wiki/Finite_element_method', target='_blank')
-              b F
-              | inite&nbsp
-              b E
-              | lement&nbsp
-              b A
-              | nalysis&nbsp
-            | framework. It is the foundation upon which SketchIT and ARStructure are built.
-            | It has a client-server structure with a simple JSON-based protocol. The services
-            | are mainly implemented in&nbsp
-            a(href='http://nodejs.org/', target='_blank') Node.js
-            | &nbsp, a high performance event-driven server-side software system. It is powered by&nbsp
-            a(href='http://en.wikipedia.org/wiki/HTML5', target='_blank') HTML5
-            | &nbsp(
-            a(href='http://en.wikipedia.org/wiki/Canvas_element', target='_blank') Canvas
-            | ,&nbsp
-            a(href='http://en.wikipedia.org/wiki/WebSocket', target='_blank') Websockets
-            | ).
+            a(href='https://bitbucket.org/lge/ifea', target='_blank') IFEA
+            |  <b>I</b>ntegrated
+            | <a href='http://en.wikipedia.org/wiki/Finite_element_method', target='_blank'><b>F</b>inite <b>E</b>lement <b>A</b>nalysis</a>
+            | web framework. IFEA is the foundation upon which SketchIT and ARStructure are built.
+            | IFEA offers services to common tasks in FEA process such as 3D modeling, mesh generation, simulation, result visualization and data
+            | sharing via a simple JSON-based API. The services
+            | are mainly implemented in <a href='http://nodejs.org/', target='_blank'>Node.js</a>,
+            | a high performance event-driven server-side software system. IFEA also provides a collection of
+            | reusable web components (HTML, css, Javascript) that take the advantage of latest web technology
+            | (<a href='http://en.wikipedia.org/wiki/HTML5', target='_blank'>HTML5</a>,
+            | <a href='http://en.wikipedia.org/wiki/WebGL', target='_blank'>WebGL</a>,
+            | <a href='http://en.wikipedia.org/wiki/WebSocket', target='_blank'>WebSocket</a>) to build rich web interface.
           li
             a(href='https://github.com/lge88/node-opensees', target='_blank') node-opensees
-            | &nbspNode.js binding for&nbsp
-            a(href='http://opensees.berkeley.edu', target='_blank') OpenSees
-            | &nbsp(
-            b Open
-            b &nbspS
-            | ystem for
-            b &nbspE
-            | arthquake
-            b &nbspE
-            | ngineering
-            b &nbspS
-            | imulation).
+            |  Node.js binding for <a href='http://opensees.berkeley.edu', target='_blank'>OpenSees</a>
+            | (<b>Open</b> <b>S</b>ystem for <b>E</b>arthquake <b>E</b>ngineering <b>S</b>imulation). The default
+            | FEA solver for IFEA.
           li
             a(href='https://github.com/lge88/node-gmsh', target='_blank') node-gmsh
-            | &nbspNode.js binding for&nbsp
-            a(href='http://geuz.org/gmsh/', target='_blank') Gmsh
-            | , an open source three-dimensional finite element mesh generator.
+            |  Node.js binding for <a href='http://geuz.org/gmsh/', target='_blank'>Gmsh</a>,
+            | an open source three-dimensional finite element mesh generator. The default mesh generator for IFEA.
       .span2
 
     .row
