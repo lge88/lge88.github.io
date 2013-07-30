@@ -3,7 +3,7 @@ require( 'shelljs/global' );
 var path = require('path');
 var jade = require('jade');
 
-var pages = [ 'index', 'background', 'research', 'publications', 'misc' ];
+var pages = [ 'index', 'background', 'research', 'misc' ];
 
 var src, dest, locals;
 
